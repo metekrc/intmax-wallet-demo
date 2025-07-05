@@ -4,7 +4,7 @@ import {
   TrendingUpIcon, 
   ClockIcon,
   FireIcon 
-} from '@heroicons/react/24/outline';
+} from '@heroicons/react/24/solid';
 
 interface StatsCardsProps {
   totalDeposited: number;
