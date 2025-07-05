@@ -1,10 +1,10 @@
 import React from 'react';
 import { 
   CurrencyDollarIcon, 
-  TrendingUpIcon, 
   ClockIcon,
   FireIcon 
 } from '@heroicons/react/24/solid';
+import { TrendingUpIcon } from '@heroicons/react/24/outline';
 
 interface StatsCardsProps {
   totalDeposited: number;
