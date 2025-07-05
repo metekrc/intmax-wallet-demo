@@ -4,7 +4,7 @@ import {
   ClockIcon,
   FireIcon
 } from '@heroicons/react/24/solid';
-import { TrendingUpIcon } from '@heroicons/react/24/outline';
+//import { TrendingUpIcon } from '@heroicons/react/24/outline';
 
 interface StatsCardsProps {
   totalDeposited: number;
@@ -27,13 +27,13 @@ export const StatsCards: React.FC<StatsCardsProps> = ({
       change: '+12.5%',
       changeType: 'positive' as const,
     },
-    {
+   /*) {
       name: 'Total Earned',
       value: `$${totalEarned.toLocaleString()}`,
       icon: TrendingUpIcon,
       change: '+8.2%',
       changeType: 'positive' as const,
-    },
+    },*/
     {
       name: 'Average APR',
       value: `${avgAPR.toFixed(1)}%`,
