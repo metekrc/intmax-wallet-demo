@@ -1,6 +1,5 @@
 import React from 'react';
 import { SparklesIcon } from '@heroicons/react/24/solid';
-import { TrendingUpIcon } from '@heroicons/react/24/solid';
 
 interface HeroSectionProps {
   totalValue: number;
@@ -32,7 +31,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-sm font-medium text-orange-100">Total Portfolio Value</h3>
-                  <TrendingUpIcon className="h-5 w-5 text-green-300" />
                 </div>
                 <p className="text-3xl font-bold">${totalValue.toLocaleString()}</p>
                 <p className="text-sm text-green-300 mt-1">
