@@ -1,6 +1,5 @@
 import React from 'react';
-import { SparklesIcon } from '@heroicons/react/24/solid';
-import { TrendingUpIcon } from '@heroicons/react/24/outline';
+import { SparklesIcon, TrendingUpIcon } from '@heroicons/react/24/solid';
 
 interface HeroSectionProps {
   totalValue: number;
